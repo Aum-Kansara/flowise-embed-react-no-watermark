@@ -12,7 +12,7 @@ const indexConfig = {
     file: "./dist/index.js",
     format: "es",
   },
-  external: ["react", "react/jsx-runtime", "flowise-embed"],
+  external: ["react", "react/jsx-runtime", "flowise-embed-no-watermark"],
   plugins: [
     resolve({ extensions }),
     babel({
