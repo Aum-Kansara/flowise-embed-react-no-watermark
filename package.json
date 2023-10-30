@@ -1,7 +1,7 @@
 {
-  "name": "flowise-embed-react",
+  "name": "flowise-embed-react-no-watermark",
   "version": "1.0.2",
-  "description": "React library to display flowise chatbot on your website",
+  "description": "React library to display flowise chatbot on your website without watermark",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -11,7 +11,6 @@
     "lint": "eslint --fix \"src/**/*.ts*\""
   },
   "keywords": [],
-  "license": "MIT",
   "dependencies": {
     "@ladle/react": "2.5.1"
   },
@@ -25,7 +24,7 @@
     "@types/node": "18.15.11",
     "@types/react": "18.0.32",
     "eslint": "8.37.0",
-    "flowise-embed": "*",
+    "flowise-embed-no-watermark": "https://github.com/Aum-Kansara/flowise-embed-no-watermark.git",
     "react": "18.2.0",
     "rollup": "3.20.2",
     "rollup-plugin-typescript-paths": "1.4.0",
@@ -34,7 +33,7 @@
     "typescript": "5.0.3"
   },
   "peerDependencies": {
-    "flowise-embed": "*",
+    "flowise-embed-no-watermark": "https://github.com/Aum-Kansara/flowise-embed-no-watermark.git",
     "react": "18.x"
   }
 }
