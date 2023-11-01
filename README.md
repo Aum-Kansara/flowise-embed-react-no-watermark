@@ -2,20 +2,18 @@
 
 # Flowise Embed React
 
-React library to display flowise chatbot on your website
-
-![Flowise](https://github.com/FlowiseAI/FlowiseChatEmbed/blob/main/images/ChatEmbed.gif?raw=true)
+React library to display flowise chatbot on your website without watermark
 
 ## Install
 
 ```bash
-npm install flowise-embed flowise-embed-react
+npm install https://github.com/Aum-Kansara/flowise-embed-no-watermark https://github.com/Aum-Kansara/flowise-embed-react-no-watermark
 ```
 
 or
 
 ```bash
-yarn add flowise-embed flowise-embed-react
+yarn add https://github.com/Aum-Kansara/flowise-embed-no-watermark https://github.com/Aum-Kansara/flowise-embed-react-no-watermark
 ```
 
 ## Import
@@ -23,7 +21,7 @@ yarn add flowise-embed flowise-embed-react
 Full Page Chat
 
 ```tsx
-import { FullPageChat } from "flowise-embed-react";
+import { FullPageChat } from "flowise-embed-react-no-watermark";
 
 const App = () => {
   return (
@@ -38,7 +36,7 @@ const App = () => {
 Popup Chat
 
 ```tsx
-import { BubbleChat } from "flowise-embed-react";
+import { BubbleChat } from "flowise-embed-react-no-watermark";
 
 const App = () => {
   return (
