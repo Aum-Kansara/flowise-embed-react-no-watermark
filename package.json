@@ -1,6 +1,6 @@
 {
   "name": "flowise-embed-react-no-watermark",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "React library to display flowise chatbot on your website without watermark",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
